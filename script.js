@@ -192,7 +192,19 @@ function renderArticleDetail() {
   wrap.querySelector("[data-a-title]").textContent = article.title;
   wrap.querySelector("[data-a-date]").textContent = article.date;
   wrap.querySelector("[data-a-read]").textContent = article.readTime;
-  wrap.querySelector("[data-a-cover]").style.backgroundImage = `url('${article.image}')`;
+ const cover = wrap.querySelector("[data-a-cover]");
+
+if (article.video) {
+  cover.innerHTML = `
+    <video controls autoplay muted playsinline poster="${article.image}">
+      <source src="${article.video}" type="video/mp4">
+      Browser Anda tidak mendukung video.
+    </video>
+  `;
+} else {
+  cover.innerHTML = "";
+  cover.style.backgroundImage = `url('${article.image}')`;
+}
 
   const body = wrap.querySelector("[data-a-body]");
   const paragraphs = [
