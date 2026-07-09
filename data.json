@@ -1,0 +1,88 @@
+[
+  {
+    "id": "tol-getaci-ciawi-beroperasi",
+    "title": "Tol Getaci Segmen Ciawi Mulai Beroperasi, Wajah Baru Ekonomi Priangan Timur",
+    "category": "Pemerintahan",
+    "date": "9 Juli 2026",
+    "readTime": "3 mnt baca",
+    "excerpt": "Ruas tol yang menghubungkan Ciawi hingga Singaparna resmi dibuka. Warga menyambut antusias meski sejumlah pekerjaan pelengkap masih berlanjut hingga akhir tahun.",
+    "image": "assets/images/berita-tol.jpg",
+    "headline": true,
+    "trending": true
+  },
+  {
+    "id": "pasar-ciawi-revitalisasi",
+    "title": "Pasar Ciawi Lama Direvitalisasi, Pedagang Sambut Konsep Modern",
+    "category": "Ekonomi",
+    "date": "9 Juli 2026",
+    "readTime": "3 mnt baca",
+    "excerpt": "Proyek revitalisasi pasar tradisional ditargetkan rampung sebelum akhir tahun, membawa penataan lapak dan area parkir yang lebih tertata.",
+    "image": "assets/images/berita-pasar.jpg",
+    "trending": true
+  },
+  {
+    "id": "petani-irigasi-cerdas",
+    "title": "Petani Kertahayu Terapkan Irigasi Cerdas di Musim Kemarau",
+    "category": "Pertanian",
+    "date": "9 Juli 2026",
+    "readTime": "3 mnt baca",
+    "excerpt": "Sistem irigasi berbasis sensor kelembapan tanah membantu petani menghemat air sekaligus menjaga hasil panen tetap stabil.",
+    "image": "assets/images/berita-irigasi.jpg",
+    "trending": true
+  },
+  {
+    "id": "festival-budaya-ciawi",
+    "title": "Festival Budaya Ciawi 2026 Siap Digelar Akhir Bulan Ini",
+    "category": "Budaya",
+    "date": "8 Juli 2026",
+    "readTime": "2 mnt baca",
+    "excerpt": "Rangkaian pertunjukan seni tradisional dan kuliner lokal akan memeriahkan alun-alun selama tiga hari berturut-turut.",
+    "image": "assets/images/berita-festival.jpg"
+  },
+  {
+    "id": "posyandu-digital",
+    "title": "Posyandu Digital Mulai Diterapkan di Sepuluh Desa",
+    "category": "Kesehatan",
+    "date": "8 Juli 2026",
+    "readTime": "4 mnt baca",
+    "excerpt": "Pencatatan tumbuh kembang balita kini terintegrasi aplikasi, memudahkan kader memantau status gizi secara real-time.",
+    "image": "assets/images/berita-posyandu.jpg"
+  },
+  {
+    "id": "umkm-ekspor-gula-aren",
+    "title": "UMKM Gula Aren Ciawi Tembus Pasar Ekspor",
+    "category": "Ekonomi",
+    "date": "7 Juli 2026",
+    "readTime": "3 mnt baca",
+    "excerpt": "Produk gula aren organik dari kelompok tani lokal kini dipasarkan hingga ke Jepang lewat kerja sama koperasi ekspor.",
+    "image": "assets/images/berita-gula-aren.jpg"
+  },
+  {
+    "id": "sekolah-lapang-iklim",
+    "title": "Sekolah Lapang Iklim Bantu Petani Baca Cuaca Ekstrem",
+    "category": "Pertanian",
+    "date": "6 Juli 2026",
+    "readTime": "3 mnt baca",
+    "excerpt": "Program pelatihan dari dinas pertanian mengajarkan petani membaca prakiraan cuaca musiman untuk menentukan pola tanam.",
+    "image": "assets/images/berita-sekolah-lapang.jpg"
+  },
+  {
+    "id": "insight-anggaran-desa",
+    "title": "Ke Mana Anggaran Desa Ciawi Dialokasikan Tahun Ini?",
+    "category": "Ciawi Insight",
+    "date": "5 Juli 2026",
+    "readTime": "5 mnt baca",
+    "excerpt": "Analisis mendalam soal proporsi anggaran desa untuk infrastruktur, kesehatan, dan pemberdayaan UMKM tahun anggaran berjalan.",
+    "image": "assets/images/insight-anggaran.jpg"
+  },
+  {
+    "id": "opini-transportasi-publik",
+    "title": "Sudah Saatnya Ciawi Punya Transportasi Publik yang Layak",
+    "category": "Opini",
+    "date": "4 Juli 2026",
+    "readTime": "4 mnt baca",
+    "excerpt": "Kolom opini warga soal pentingnya angkutan umum terjadwal seiring bertambahnya aktivitas ekonomi di sepanjang jalur tol baru.",
+    "image": "assets/images/opini-transportasi.jpg",
+    "author": "Rina Marlina, Warga Ciawi"
+  }
+]

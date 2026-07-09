@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Ciawi Today — Portal Berita Lokal</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Sora:wght@600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- ===== NAVBAR ===== -->
+<header class="navbar">
+  <div class="navbar-inner">
+    <a href="index.html" class="brand">
+      <div class="brand-mark">C</div>
+      <div class="brand-text">
+        <div class="brand-title">CIAWI TODAY</div>
+        <div class="brand-sub">PORTAL BERITA LOKAL</div>
+      </div>
+    </a>
+    <nav class="nav-links">
+      <a href="index.html" class="active">Beranda</a>
+      <a href="berita.html">Berita</a>
+      <a href="insight.html">Ciawi Insight</a>
+      <a href="video.html">Video</a>
+      <a href="galeri.html">Galeri</a>
+      <a href="opini.html">Opini</a>
+      <a href="tentang.html">Tentang Kami</a>
+    </nav>
+    <div class="nav-actions">
+      <button class="icon-btn" aria-label="Cari">🔍</button>
+      <button class="icon-btn" data-theme-toggle aria-label="Ganti tema">🌙</button>
+      <button class="btn-login">➜ Login</button>
+      <button class="nav-toggle" data-nav-toggle aria-label="Menu">☰</button>
+    </div>
+  </div>
+</header>
+
+<!-- ===== MAIN LAYOUT ===== -->
+<div class="page-layout">
+
+  <!-- LEFT SIDEBAR -->
+  <aside class="side-panel-left">
+    <div class="side-panel">
+      <h3>Menu Utama</h3>
+      <ul class="menu-list">
+        <li><a href="index.html" class="active">🏠 Beranda <span class="dot"></span></a></li>
+        <li><a href="berita.html">📰 Berita</a></li>
+        <li><a href="insight.html">📊 Ciawi Insight</a></li>
+        <li><a href="video.html">▶️ Video</a></li>
+        <li><a href="galeri.html">🖼️ Galeri</a></li>
+        <li><a href="opini.html">💬 Opini</a></li>
+        <li><a href="tentang.html">ℹ️ Tentang Kami</a></li>
+      </ul>
+    </div>
+
+    <div class="side-panel weather-widget">
+      <div class="loc">📍 Ciawi, Tasikmalaya</div>
+      <div class="weather-main">
+        <div>⛅</div>
+        <div>
+          <div class="temp">24°</div>
+          <div class="cond">Berawan sebagian</div>
+        </div>
+      </div>
+      <div class="weather-detail">
+        <span>H: 28°</span>
+        <span>L: 21°</span>
+        <span>Angin 8 km/j</span>
+      </div>
+    </div>
+
+    <div class="side-panel">
+      <h3>Ikuti Kami</h3>
+      <div class="social-row">
+        <a href="#" class="icon-btn">📘</a>
+        <a href="#" class="icon-btn">📸</a>
+        <a href="#" class="icon-btn">🐦</a>
+        <a href="#" class="icon-btn">▶️</a>
+      </div>
+    </div>
+  </aside>
+
+  <!-- MAIN CONTENT -->
+  <main>
+    <section class="hero" data-hero>
+      <div class="hero-bg"></div>
+      <div class="hero-dots">
+        <span class="active"></span><span></span><span></span><span></span>
+      </div>
+      <div class="hero-content">
+        <div class="badge-row">
+          <span class="badge-headline">HEADLINE</span>
+          <span class="meta-inline" data-hero-cat>Pemerintahan</span>
+          <span class="meta-inline">•</span>
+          <span class="meta-inline" data-hero-date>9 Juli 2026</span>
+        </div>
+        <h1 class="hero-title" data-hero-title>Memuat berita utama...</h1>
+        <p class="hero-desc" data-hero-desc></p>
+        <div class="hero-actions">
+          <a href="detail-berita.html" class="btn-primary" data-hero-link>Baca Selengkapnya →</a>
+          <a href="berita.html" class="btn-secondary">▶ Semua Berita</a>
+        </div>
+      </div>
+    </section>
+
+    <div class="section-heading">
+      <h2>Berita Terkini</h2>
+      <a href="berita.html">Lihat semua →</a>
+    </div>
+    <div class="news-grid" data-news-grid data-limit="6"></div>
+
+    <div class="section-heading">
+      <h2>Ciawi Insight</h2>
+      <a href="insight.html">Lihat semua →</a>
+    </div>
+    <div class="news-grid" data-news-grid data-category="Ciawi Insight" data-limit="3"></div>
+  </main>
+
+  <!-- RIGHT SIDEBAR -->
+  <aside class="side-panel-right">
+    <div class="side-panel">
+      <div class="tabs">
+        <button class="tab-btn active" data-tab="terbaru">Terbaru</button>
+        <button class="tab-btn" data-tab="populer">Populer</button>
+        <button class="tab-btn" data-tab="trending">Trending</button>
+      </div>
+      <div data-sidebar-list></div>
+    </div>
+
+    <div class="side-panel">
+      <h3>Iklan</h3>
+      <div class="ad-slot">Ruang iklan 300 × 250</div>
+    </div>
+  </aside>
+</div>
+
+<!-- ===== FOOTER ===== -->
+<footer class="footer">
+  <div class="footer-inner">
+    <div class="footer-col">
+      <h4>CIAWI TODAY</h4>
+      <p>Portal berita lokal yang menyajikan informasi terkini seputar Ciawi dan Priangan Timur secara akurat dan terpercaya.</p>
+    </div>
+    <div class="footer-col">
+      <h4>Navigasi</h4>
+      <ul>
+        <li><a href="berita.html">Berita</a></li>
+        <li><a href="insight.html">Ciawi Insight</a></li>
+        <li><a href="video.html">Video</a></li>
+        <li><a href="galeri.html">Galeri</a></li>
+      </ul>
+    </div>
+    <div class="footer-col">
+      <h4>Perusahaan</h4>
+      <ul>
+        <li><a href="tentang.html">Tentang Kami</a></li>
+        <li><a href="opini.html">Opini</a></li>
+        <li><a href="#">Redaksi</a></li>
+        <li><a href="#">Kontak</a></li>
+      </ul>
+    </div>
+    <div class="footer-col">
+      <h4>Ikuti Kami</h4>
+      <div class="social-row">
+        <a href="#" class="icon-btn">📘</a>
+        <a href="#" class="icon-btn">📸</a>
+        <a href="#" class="icon-btn">🐦</a>
+      </div>
+    </div>
+  </div>
+  <div class="footer-bottom">© 2026 Ciawi Today. Seluruh hak cipta dilindungi.</div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Berita — Ciawi Today</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Sora:wght@600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="navbar">
+  <div class="navbar-inner">
+    <a href="index.html" class="brand">
+      <div class="brand-mark">C</div>
+      <div class="brand-text">
+        <div class="brand-title">CIAWI TODAY</div>
+        <div class="brand-sub">PORTAL BERITA LOKAL</div>
+      </div>
+    </a>
+    <nav class="nav-links">
+      <a href="index.html">Beranda</a>
+      <a href="berita.html" class="active">Berita</a>
+      <a href="insight.html">Ciawi Insight</a>
+      <a href="video.html">Video</a>
+      <a href="galeri.html">Galeri</a>
+      <a href="opini.html">Opini</a>
+      <a href="tentang.html">Tentang Kami</a>
+    </nav>
+    <div class="nav-actions">
+      <button class="icon-btn" data-theme-toggle aria-label="Ganti tema">🌙</button>
+      <button class="btn-login">➜ Login</button>
+      <button class="nav-toggle" data-nav-toggle aria-label="Menu">☰</button>
+    </div>
+  </div>
+</header>
+
+<div class="page-layout single-col">
+  <main>
+    <h1 style="font-family:var(--font-display); font-size:1.8rem; margin-bottom:16px;">Semua Berita</h1>
+
+    <div class="search-bar">
+      <span>🔍</span>
+      <input type="text" placeholder="Cari berita..." data-search-input>
+    </div>
+
+    <div class="filter-bar">
+      <button class="filter-chip active" data-filter-chip="Semua">Semua</button>
+      <button class="filter-chip" data-filter-chip="Pemerintahan">Pemerintahan</button>
+      <button class="filter-chip" data-filter-chip="Ekonomi">Ekonomi</button>
+      <button class="filter-chip" data-filter-chip="Pertanian">Pertanian</button>
+      <button class="filter-chip" data-filter-chip="Budaya">Budaya</button>
+      <button class="filter-chip" data-filter-chip="Kesehatan">Kesehatan</button>
+    </div>
+
+    <div class="news-grid" data-news-grid data-limit="24"></div>
+  </main>
+</div>
+
+<footer class="footer">
+  <div class="footer-inner">
+    <div class="footer-col">
+      <h4>CIAWI TODAY</h4>
+      <p>Portal berita lokal yang menyajikan informasi terkini seputar Ciawi dan Priangan Timur secara akurat dan terpercaya.</p>
+    </div>
+    <div class="footer-col">
+      <h4>Navigasi</h4>
+      <ul>
+        <li><a href="berita.html">Berita</a></li>
+        <li><a href="insight.html">Ciawi Insight</a></li>
+        <li><a href="video.html">Video</a></li>
+        <li><a href="galeri.html">Galeri</a></li>
+      </ul>
+    </div>
+    <div class="footer-col">
+      <h4>Perusahaan</h4>
+      <ul>
+        <li><a href="tentang.html">Tentang Kami</a></li>
+        <li><a href="opini.html">Opini</a></li>
+        <li><a href="#">Redaksi</a></li>
+        <li><a href="#">Kontak</a></li>
+      </ul>
+    </div>
+    <div class="footer-col">
+      <h4>Ikuti Kami</h4>
+      <div class="social-row">
+        <a href="#" class="icon-btn">📘</a>
+        <a href="#" class="icon-btn">📸</a>
+        <a href="#" class="icon-btn">🐦</a>
+      </div>
+    </div>
+  </div>
+  <div class="footer-bottom">© 2026 Ciawi Today. Seluruh hak cipta dilindungi.</div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
