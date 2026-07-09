@@ -82,14 +82,28 @@
 
 <script src="script.js"></script>
 <script>
+  // Foto tambahan yang tidak terkait artikel berita (dokumentasi kegiatan, dsb).
+  // Tinggal tambah baris baru di sini tiap kali ada foto baru.
+  const GALLERY_PHOTOS = [
+    { image: "assets/images/kegiatan-1.JPEG", title: "Dokumentasi Kegiatan 1" },
+  ];
+
   document.addEventListener("DOMContentLoaded", () => {
     const check = setInterval(() => {
       if (typeof NEWS_DATA !== "undefined" && NEWS_DATA.length) {
         clearInterval(check);
         const grid = document.getElementById("gallery-grid");
-        grid.innerHTML = NEWS_DATA.map(n => `
+
+        const fromNews = NEWS_DATA.map(n => `
           <a href="detail-berita.html?id=${n.id}" class="g-item" style="background-image:url('${n.image}')" title="${n.title}"></a>
         `).join("");
+
+        const fromManual = GALLERY_PHOTOS.map(g => `
+          <a href="${g.image}" target="_blank" class="g-item" style="background-image:url('${g.image}')" title="${g.title}"></a>
+        `).join("");
+
+        // Foto manual ditaruh paling atas biar langsung kelihatan
+        grid.innerHTML = fromManual + fromNews;
       }
     }, 100);
   });
