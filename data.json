@@ -21,16 +21,17 @@
      "video": "assets/video/vid1.mp4",
     "trending": true
   },
-  {
-    "id": "petani-irigasi-cerdas",
-    "title": "Petani Kertahayu Terapkan Irigasi Cerdas di Musim Kemarau",
-    "category": "Pertanian",
-    "date": "9 Juli 2026",
-    "readTime": "3 mnt baca",
-    "excerpt": "Sistem irigasi berbasis sensor kelembapan tanah membantu petani menghemat air sekaligus menjaga hasil panen tetap stabil.",
-    "image": "assets/images/petani.cerdas-1.png",
-    "trending": true
-  },
+ {
+  "id": "petani-irigasi-cerdas",
+  "title": "Petani Kertahayu Terapkan Irigasi Cerdas di Musim Kemarau",
+  "category": "Pertanian",
+  "date": "9 Juli 2026",
+  "readTime": "3 mnt baca",
+  "excerpt": "Sistem irigasi berbasis sensor kelembapan tanah membantu petani menghemat air sekaligus menjaga hasil panen tetap stabil.",
+  "image": "assets/images/petani.cerdas-1.png",
+  "video": "assets/video/petani-irigasi.mp4",
+  "trending": true
+},
   {
     "id": "festival-budaya-ciawi",
     "title": "Festival Budaya Ciawi 2026 Siap Digelar Akhir Bulan Ini",
