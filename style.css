@@ -546,3 +546,15 @@ body.light {
   .hero-title { font-size: 1.8rem; }
   .footer-inner { grid-template-columns: 1fr 1fr; }
 }
+
+.article-cover video{
+    width:100%;
+    height:100%;
+    display:block;
+    object-fit:cover;
+    border-radius:18px;
+}
+
+.article-cover{
+    overflow:hidden;
+}
