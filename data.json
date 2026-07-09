@@ -1,15 +1,16 @@
 [
   {
-    "id": "tol-getaci-ciawi-beroperasi",
-    "title": "Tol Getaci Segmen Ciawi Mulai Beroperasi, Wajah Baru Ekonomi Priangan Timur",
-    "category": "Pemerintahan",
-    "date": "9 Juli 2026",
-    "readTime": "3 mnt baca",
-    "excerpt": "Ruas tol yang menghubungkan Ciawi hingga Singaparna resmi dibuka. Warga menyambut antusias meski sejumlah pekerjaan pelengkap masih berlanjut hingga akhir tahun.",
-    "image": "assets/images/tol-getaci.jfif",
-    "headline": true,
-    "trending": true
-  },
+  "id": "tol-getaci-ciawi-beroperasi",
+  "title": "Tol Getaci Segmen Ciawi Mulai Beroperasi, Wajah Baru Ekonomi Priangan Timur",
+  "category": "Pemerintahan",
+  "date": "9 Juli 2026",
+  "readTime": "3 mnt baca",
+  "excerpt": "Ruas tol yang menghubungkan Ciawi hingga Singaparna resmi dibuka. Warga menyambut antusias meski sejumlah pekerjaan pelengkap masih berlanjut hingga akhir tahun.",
+  "image": "assets/images/tol-getaci.jfif",
+  "video": "assets/video/jalantol1.mp4",
+  "headline": true,
+  "trending": true
+},
   {
     "id": "pasar-ciawi-revitalisasi",
     "title": "Pasar Ciawi Lama Direvitalisasi, Pedagang Sambut Konsep Modern",
